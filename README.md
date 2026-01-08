@@ -11,8 +11,6 @@ This game is built **from scratch** using only core web technologies — no fram
 
 ## 🖼️ Gameplay Screenshots
 
-## 🖼️ Gameplay Screenshots
-
 <p align="center">
   <img src="image1.png" width="45%" />
   <img src="image.png" width="45%" />
