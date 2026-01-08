@@ -9,14 +9,11 @@ This game is built **from scratch** using only core web technologies — no fram
 
 ---
 
-## 🎥 Gameplay
+## 🖼️ Gameplay Screenshots
 
-▶ **Watch Gameplay Video**  
-[Click here to watch the gameplay](https://github.com/RD1241/neon-barrage-survival/blob/main/Gameplay.mp4)
+![Gameplay 1](assets/screenshot1.png)
+![Gameplay 2](assets/screenshot2.png)
 
-> Real gameplay footage recorded directly from the game.
-
----
 
 ## 🕹️ Game Features
 
