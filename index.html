@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neon Barrage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game-container">
+    <!-- GAME -->
+    <div style="position: relative;">
+        <canvas id="gameCanvas" width="600" height="600"></canvas>
+        <!-- OVERLAY (PAUSE / INFO / GAME OVER) -->
+        <div id="ui-overlay">
+            <div id="overlay-title">PAUSED</div>
+            <div id="overlay-text">Press P to Resume</div>
+        </div>
+    </div>
+    <!-- UI PANEL -->
+    <div id="ui">
+        <h1>Neon Barrage</h1>
+        <p>Wave: <span id="ui-wave">1</span></p>
+        <p>Score: <span id="ui-score">0</span></p>
+        <div id="hp-bar">
+            <div id="hp-fill"></div>
+        </div>
+        <div id="controls-hint">
+            Move: Arrow Keys<br>
+            Shoot: Mouse / Space<br>
+            P: Pause<br>
+            I: Info
+        </div>
+    </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

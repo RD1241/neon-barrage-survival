@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: radial-gradient(circle at top, #0a0f1e, #020409);
+    font-family: Arial, Helvetica, sans-serif;
+    color: cyan;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* ================= LAYOUT ================= */
+#game-container {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+#gameCanvas {
+    background: black;
+    border: 2px solid cyan;
+    box-shadow: 0 0 25px cyan;
+}
+/* ================= SIDE UI ================= */
+#ui {
+    min-width: 200px;
+    user-select: none;
+}
+#ui h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+}
+#ui p {
+    font-size: 14px;
+    margin: 6px 0;
+    color: rgba(0, 255, 255, 0.85);
+}
+/* ================= HP BAR ================= */
+#hp-bar {
+    width: 120px;
+    height: 10px;
+    border: 1px solid white;
+    margin: 10px 0 16px 0;
+}
+#hp-fill {
+    height: 100%;
+    width: 100%;
+    background: lime;
+}
+/* ================= OVERLAY ================= */
+#ui-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+#ui-overlay.show {
+    opacity: 1;
+    pointer-events: all;
+}
+#overlay-title {
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: cyan;
+    text-shadow: 0 0 15px cyan;
+}
+#overlay-text {
+    font-size: 16px;
+    white-space: pre-line;
+    color: rgba(0, 255, 255, 0.85);
+    text-align: center;
+    line-height: 1.6;
+}
+/* ================= FOOTER HELP ================= */
+#controls-hint {
+    margin-top: 14px;
+    font-size: 12px;
+    color: rgba(0, 255, 255, 0.6);
+}
