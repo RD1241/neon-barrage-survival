@@ -12,7 +12,7 @@ This game is built **from scratch** using only core web technologies — no fram
 ## 🎥 Gameplay
 
 ▶ **Watch Gameplay Video**  
-[Click here to watch the gameplay](./GamePlay.mp4)
+[Click here to watch the gameplay](GamePlay.mp4)
 
 > Real gameplay footage recorded directly from the game.
 
