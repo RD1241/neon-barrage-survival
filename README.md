@@ -18,6 +18,10 @@ This game is built **from scratch** using only core web technologies — no fram
 > Real gameplay screenshots showcasing waves, enemies, power-ups, and UI.
 
 
+## Game Link
+
+https://rd1241.github.io/neon-barrage-survival/
+
 ## 🕹️ Game Features
 
 ### ⚔️ Combat
