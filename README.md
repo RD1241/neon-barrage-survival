@@ -11,8 +11,13 @@ This game is built **from scratch** using only core web technologies — no fram
 
 ## 🖼️ Gameplay Screenshots
 
-![Gameplay 1](assets/screenshot1.png)
-![Gameplay 2](assets/screenshot2.png)
+## 🖼️ Gameplay Screenshots
+
+<p align="center">
+  <img src="image1.png" width="45%" />
+  <img src="image.png" width="45%" />
+</p>
+> Real gameplay screenshots showcasing waves, enemies, power-ups, and UI.
 
 
 ## 🕹️ Game Features
